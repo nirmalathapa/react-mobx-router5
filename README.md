@@ -542,9 +542,9 @@ function logMeIn(e) {
 function Menu(props) {
   return (
     <nav>
-      <BaseLink routerStore={props.routerStore} routeName='home' routeOptions={{reload: true}}>Home</Link>
-      <BaseLink router={props.router} routeName='home'>About</Link>
-      <BaseLink onClick={logMeIn} >Login</Link>
+      <BaseLink routerStore={props.routerStore} routeName='home' routeOptions={{reload: true}}>Home</BaseLink>
+      <BaseLink router={props.router} routeName='home'>About</BaseLink>
+      <BaseLink onClick={logMeIn} >Login</BaseLink>
     </nav>
   );
 }
